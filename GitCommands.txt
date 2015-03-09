@@ -1,0 +1,22 @@
+git init  -- to initialize git repository
+git remote add origin https://github.com/Sudhirbr/R-Test-repo.git  --- to Point the local directory to GitHub Repo
+
+git add .   --- adds all new files
+git add -u updates tracking for files that changes names or were deleted
+git add -A does both the previous
+
+git config --global http.proxy http[s]://userName:password(encoded)@proxyaddress:port
+ex: git config --global http.proxy http[s]://kumars:Adelaide%40123@vrpxy-bc-kew01:8080
+
+
+git commit -m "message"   --- give meaningful msg. This is a local action.
+
+
+git push --- all the commited files will be pushed to github
+
+
+git checkout -b branchname  ---create a branch with the command
+
+-git branch --- to view the current branch
+
+git checkout master --- switch back to master branch
